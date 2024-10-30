@@ -1,0 +1,20 @@
+{
+  "name": "autorenew-ssl",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "nodemon": "^3.1.7"
+  }
+}
